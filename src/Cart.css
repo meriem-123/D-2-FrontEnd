@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,700,900&display=swap");
+
+.checkout {
+  display: flex;
+  padding: 20px;
+  background-color: ivory;
+  height: max-content;
+}
+.shopping-cart {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  margin-right: 10px;
+  padding: 10px;
+  border-bottom: 1px solid lightgrey;
+}
+h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  margin-right: 10px;
+  padding: 10px;
+}
+.back {
+  cursor: pointer;
+  padding: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-size: 13px;
+  color: #373f16;
+}
+.fa {
+  padding-right: 4px;
+}
+.payment {
+  padding: 18px;
+}
+.pay {
+  width: 400px;
+  height: auto;
+}
+.checkout-ad {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  margin: 10px 0;
+}

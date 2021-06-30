@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,700,900&display=swap");
+.subtotal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 400px;
+  height: 200px;
+  padding: 20px;
+  background-color: #f3f3f3;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  margin: 10px;
+  font-size: 13px;
+}
+.subtotal-info {
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+.subtotal-gift {
+  display: flex;
+  align-items: center;
+}
+.under-info {
+  text-align: center;
+}
+.subtotal-gift > input {
+  margin-right: 5px;
+}
+.subtotal > button {
+  font-family: "Poppins";
+  cursor: pointer;
+  border: none;
+
+  height: 48px;
+  padding: 0 60px;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 0.06rem;
+
+  background: #000;
+  color: #fff;
+
+  width: 100%;
+
+  margin-top: 10px;
+}

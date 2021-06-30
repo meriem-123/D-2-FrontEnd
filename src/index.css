@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+@font-face {
+  font-family: "VEbold";
+  src: local("VEbold"), url(./fonts/BeVietnam-ExtraBold.ttf);
+}
+@font-face {
+  font-family: "Vbold";
+  src: local("Vbold"), url(./fonts/BeVietnam-Bold.ttf);
+}
+@font-face {
+  font-family: "Vmedium";
+  src: local("Vmedium"), url(./fonts/BeVietnam-Medium.ttf);
+}
+@font-face {
+  font-family: "Vregular";
+  src: local("Vregular"), url(./fonts/BeVietnam-Regular.ttf);
+}
+@font-face {
+  font-family: "Vthin";
+  src: local("Vthin"), url(./fonts/BeVietnam-Thin.ttf);
+}

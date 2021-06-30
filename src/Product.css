@@ -1,0 +1,39 @@
+img {
+  max-width: 100%;
+  height: auto;
+}
+.product {
+  width: 100%;
+  margin: 0 0 20px;
+  padding: 10px;
+  background: #fff;
+  overflow: hidden;
+  break-inside: avoid;
+  opacity: 0;
+  animation: fadeUp 0.7s forwards;
+  animation-delay: 0.8s;
+}
+h6 {
+  font-size: 11px;
+  font-family: Vregular;
+  margin: 10px 0 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.685);
+}
+p {
+  font-size: 10px;
+  font-family: Vregular;
+  margin: 0;
+  padding: 0 0 10px;
+  color: rgba(0, 0, 0, 0.685);
+}
+
+@keyframes fadeUp {
+  0% {
+    transform: translateY(4rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

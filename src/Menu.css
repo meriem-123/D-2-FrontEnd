@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap");
+.hamburger-menu {
+  z-index: 9;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+  height: 100%;
+
+  width: 100%;
+
+  background-image: linear-gradient(
+      to bottom,
+      rgba(81, 81, 82, 0.52),
+      rgba(132, 132, 134, 0.52)
+    ),
+    url("images/fc3e22339ff9a2f91f0b59d553c4c448.jpg");
+
+  background-size: cover;
+}
+.menu-secondary-background-color {
+  background-color: black;
+
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+.menu-layer {
+  position: relative;
+  background: #1f240da9;
+  height: 100%;
+
+  overflow: hidden;
+}
+.menu-image-background {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  opacity: 0;
+  background-repeat: no-repeat;
+  animation: camera 10s infinite;
+}
+
+.wrapper {
+  position: relative;
+}
+.menu-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  top: 200%;
+}
+.navi {
+  display: block;
+}
+.uli {
+  padding: 8rem 8rem 4rem 8rem;
+  margin: 0;
+}
+.lii {
+  letter-spacing: -2px;
+  font-family: "Poppins", sans-serif;
+  list-style: none;
+  font-size: 5rem;
+  font-weight: 900;
+  cursor: pointer;
+  height: 120px;
+  overflow: hidden;
+  opacity: 0;
+
+  position: relative;
+  width: 1000px;
+  animation: show 1s forwards;
+  animation-delay: 0.7s;
+}
+.list {
+  position: absolute;
+  color: rgba(255, 255, 255, 0.685);
+  text-decoration: none;
+}
+.list:hover {
+  color: black;
+}
+.brands {
+  position: absolute;
+  bottom: -8px;
+
+  color: rgba(255, 255, 255, 0.685);
+  margin-top: 8px;
+  font-size: 0.8rem;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+.brands-title {
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1px;
+  color: #0a0c04c4;
+  font-size: 1.5rem;
+  font-weight: 900;
+  padding-left: 4rem;
+  list-style: none;
+  text-decoration: none;
+}
+.bran {
+  color: inherit;
+}
+.brands > span {
+  cursor: pointer;
+  margin: 0 32px;
+  transition: 0.3s ease-in-out;
+
+  text-decoration: none;
+}
+.brands > span:first-child {
+  margin-left: 64px;
+}
+.brands > span:hover {
+  background: #0a0c04c4;
+  padding: 8px 24px;
+  border-radius: 5px;
+}
+
+@keyframes show {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes camera {
+  0% {
+    background-position: 0% 0%;
+  }
+  25% {
+    background-position: 40% 10%;
+  }
+  50% {
+    background-position: 0% 10%;
+  }
+  75% {
+    background-position: 10% 40%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}

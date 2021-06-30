@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;900&display=swap");
+.page {
+  margin: 0;
+  padding: 1rem 0 0;
+  font-family: Vregular;
+  z-index: 1;
+  background-image: linear-gradient(to bottom, transparent, rgb(234, 237, 237));
+}
+.products {
+  width: 1200px;
+  margin: 20px auto 0;
+  columns: 4;
+  column-gap: 35px;
+  z-index: 2;
+}
+
+.hero1 {
+  background: url("images/blink.jpg");
+  width: 100%;
+  height: 100vh;
+
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 2), rgba(0, 0, 0, 0));
+  z-index: -1;
+  margin-bottom: -150px;
+}
+
+.hero2 {
+  background: url("images/btss.jpg");
+  width: 100%;
+  height: 100vh;
+
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 2), rgba(0, 0, 0, 0));
+  z-index: -1;
+  margin-bottom: -150px;
+}
+
+.hero3 {
+  background: url("images/model.jpg");
+  width: 100%;
+  height: 100vh;
+
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 2), rgba(0, 0, 0, 0));
+  z-index: -1;
+  margin-bottom: -150px;
+}
+
+.heroConverse {
+  background: url("images/converse.jpg");
+  width: 100%;
+  height: 100vh;
+
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 2), rgba(0, 0, 0, 0));
+  z-index: -1;
+  margin-bottom: -150px;
+}
+
+.heroDr {
+  background: url("images/drMartens.jpg");
+  width: 100%;
+  height: 100vh;
+
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 2), rgba(0, 0, 0, 0));
+  z-index: -1;
+  margin-bottom: -150px;
+}
+
+.heroBenefit {
+  background: url("images/benefit2.jpg");
+  width: 100%;
+  height: 100vh;
+
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 2), rgba(0, 0, 0, 0));
+  z-index: -1;
+  margin-bottom: -150px;
+}
+
+.heroBoss {
+  background: url("images/boss.jpg");
+  width: 100%;
+  height: 100vh;
+
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 2), rgba(0, 0, 0, 0));
+  z-index: -1;
+  margin-bottom: -150px;
+}
+
+.heroCalvin {
+  background: url("images/calvin.jpg");
+  width: 100%;
+  height: 100vh;
+
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 2), rgba(0, 0, 0, 0));
+  z-index: -1;
+  margin-bottom: -150px;
+}
+
+.heroBybi {
+  background: url("images/kayali2.jpg");
+  width: 100%;
+  height: 100vh;
+
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 2), rgba(0, 0, 0, 0));
+  z-index: -1;
+  margin-bottom: -150px;
+}
+.heroWishlist {
+  background-image: linear-gradient(to bottom, #2e3513, transparent);
+  height: 10vh;
+}
+.sub-headline1 {
+  letter-spacing: -2px;
+  font-family: "Poppins", sans-serif;
+  font-size: 6rem;
+  color: #fada5f;
+  font-weight: 900;
+  letter-spacing: -2px;
+  line-height: 0.3;
+  opacity: 0;
+  animation: fadeUp 0.7s forwards;
+  animation-delay: 0.8s;
+}
+
+.headline11 {
+  color: #fff;
+  font-size: 2.5rem;
+  font-family: Vbold;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 0.5rem;
+  margin-right: -16rem;
+}
+.first-letter1 {
+  font-size: 7.3rem;
+}
+
+@media (min-width: 900px) {
+  section {
+    /* padding: 7.9rem; */
+  }
+  .sub-headline1 {
+    font-size: 8rem;
+  }
+
+  .headline11 {
+    font-size: 3.7rem;
+  }
+
+  .first-letter1 {
+    font-size: 10.3rem;
+  }
+}
